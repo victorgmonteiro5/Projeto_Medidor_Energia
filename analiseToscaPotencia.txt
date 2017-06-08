@@ -1,0 +1,26 @@
+P=(VmIm/2)cos(teta) 
+Tomando Vm=2, Im=2 e Teta=60°
+Sendo que teta é a defasagem entre v(t) e i(t)
+
+P sem distorção de fase do sensor de corrente:
+P=(2*2/2)cos(60) = 1
+
+P com distorção máxima de fase do sensor de corrente:
+teta+4=60+4=64
+P=(2*2/2)cos(64)= 0.8767 - Erro=-12.33%
+teta-4=56
+P=P=(2*2/2)cos(56)= 1.1183 - Erro=+11,83%
+
+
+P=(VmIm/2)cos(teta) 
+Tomando Vm=3, Im=3 e Teta=30°
+Sendo que teta é a defasagem entre v(t) e i(t)
+
+P sem distorção de fase do sensor de corrente:
+P=(3*3/2)cos(30) = 3,8971
+
+P com distorção máxima de fase do sensor de corrente:
+teta+4=34
+P=(3*3/2)cos(34)= 3,7306 : Erro=-4,46%
+teta-4=26
+P=(3*3/2)cos(26)= 4,0445 : Erro=+8,41%
