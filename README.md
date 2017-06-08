@@ -1,21 +1,40 @@
-# Projeto_Medidor_Energia
-## Informações Gerais  
+# Branch Coisas a Faser  
+## ATENÃ‡ÃƒO ESTE BRANCH JAMAIS DEVE SER MERGEADO PARA O MASTER!  
 
-Universidade Federal de Santa Catarina - UFSC  
-Centro Tecnológico - CTC  
-Departamento de Engenharia Elétrica e Eletrônica  
-Projeto referente a disciplina de Circuitos Eletrônicos Analógicos.  
-Professor Jader Alves de Lima Filho  
-Grupo: Ruy Leonardo Baron / Victor Gabriel Monteiro  
+### Objetivo  
+O branch tem como objetivo apenas deixar uma lista de coisas a fazer. Este nÃ£o Ã© o melhor mÃ©todo para isso. Mas na pressa foi o que fizemos pra compartilhar o arquivo. O procedimento correto seria criar atividades na parte "issues" aqui no github e ir adicionando as atividades nos quadros "to do", "doing", "done", etc.  
 
-### Objetivo do Repositório  
-Controle de versão de arquivos relacionados ao projeto, principalmente arquivos de simulação.  
+### Lista rÃ¡pida de coisas a fazer  
+- Trocar os componentes do circuito por transistores reais  
+  - (mostrar na aparesentaÃ§Ã£o talvez o datahseeet do transistor real )  
+  - (registrar o B), etc pra demonstar que usamos componentes reais.  
 
-## Guidelines  
-- Sempre que for começar a trabalhar na simulação, dar 'pull' para certificar-se de ter a versão mais atual dos arquivos no seu repositório local.  
-- Dar 'push' quando tiver terminado de trabalhar e quiser compartilhar o resultado da simulação que fez com o coleguinha.  
+- Causar descasamento e analisar o efeito na saÃ­da.  
+	- Descasamento nos transistores (utilizar transistores diferentes)  
+	- Descasamento nas fontes de corrente de polarizaÃ§Ã£o.  
 
+- Analisar THD no caso de produto de duas senoides de mesma frequÃªncia.  
 
-Adicione aqui neste 'README.md' qualquer outra informação que ache importante referente a como proceder neste repositório.  
+- Analisar primeira derivada da curva de transferÃªncia.  
+  - Identificar regiÃ£o de boa linearidade.  
 
-Adicionar aqui posteriormente o link no docs da apresentação final.  
+- Analisar erro no calculo da potÃªncia em relaÃ§Ã£o a outros circuitos "comerciais". (PrecisÃ£o)  
+
+- Analisar erro inserido pela defasagem do sensor de corrente. (Fazer grÃ¡ficos de PotÃªncia variando teta, Vm e Im,.   
+	MÃ©todo: Plotar no mesmo grÃ¡fico (...)cos(t) e (...)cos(t+4).  
+	        Diminuir um valor do outro e normaliza por (...)cos(t)  
+          Isso seria o erro percentual para um valor de (...) = VmIm/2  
+          Em seguida repetir o mesmo processo variando Vm e Im e criar retas de erros.  
+
+- Plotar e caracterizar(saber explicar) melhor formas de onda de tensÃ£o e corrente nos pontos cruciais do circuito.  
+
+- AnÃ¡lise de excursÃ£o de sinal de entrada bem detalhada pra ele entender.  
+
+- AnÃ¡lise de consumo.  
+
+### Se tiver tempo depois, anÃ¡lises adicionais super difÃ­ceis pra pegar um 10Ã£o:  
+
+- ??? ( CMRR dos pares diferenciais de entrada )???  
+- Analise do efeito da temperatura no circuito  
+- Trocar as fontes de corrente por espelhos de corrente.  
+- Trocar a referÃªncia de tensÃ£o (terra) por bandagap ?? ver com calma. calma lÃ¡ amigo  
