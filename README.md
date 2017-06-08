@@ -1,4 +1,4 @@
-# Branch Coisas a Faser  
+# Branch Coisas a Fazer  
 ## ATENÇÃO ESTE BRANCH JAMAIS DEVE SER MERGEADO PARA O MASTER!  
 
 ### Objetivo  
